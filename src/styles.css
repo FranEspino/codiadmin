@@ -1,0 +1,42 @@
+.inactive{
+    width: 100px;
+   position: fixed;
+    background-color: #ECF5FA;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 30px;
+    transition: width 0.5s ease-in;
+}
+.NavLink{
+    color: #333;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+.active{
+    width: 300px;
+   position: fixed;
+    background-color: #ECF5FA;
+
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 30px;
+    transition: width 0.3s  ease-in;
+}
+.containerLayout{
+    margin-left: 60px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ECF5FA;
+
+
+
+    
+}
